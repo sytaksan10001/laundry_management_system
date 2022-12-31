@@ -3,7 +3,9 @@ import 'package:d_view/d_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
+import 'package:laundry_management_system/controller/c_search.dart';
 import 'package:laundry_management_system/data/source/source_laundry.dart';
+import 'package:get/get.dart';
 
 class SearchPage extends StatelessWidget {
   const SearchPage({Key? key}) : super(key: key);
@@ -11,6 +13,7 @@ class SearchPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final search = TextEditingController();
+    final cSearch = Get.put(CSearch());
     return Scaffold(
       appBar: AppBar(
         titleSpacing: 0,
