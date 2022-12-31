@@ -4,6 +4,7 @@ import 'package:laundry_management_system/controller/c_where_status.dart';
 import 'package:get/get.dart';
 import 'package:laundry_management_system/data/model/laundry.dart';
 import '../../config/app_format.dart';
+import '../page/detail_page.dart';
 
 class WhereStatusPage extends StatefulWidget {
   const WhereStatusPage({Key? key, required this.status}) : super(key: key);
@@ -40,11 +41,11 @@ class _WhereStatusPageState extends State<WhereStatusPage> {
                 return Card(
                   child: ListTile(
                     onTap: () {
-                      // Get.to(() => DetailPage(laundry: laundry))?.then((value) {
-                      //   if (value ?? false) {
-                      //     refresh();
-                      //   }
-                      // });
+                      Get.to(() => DetailPage(laundry: laundry))?.then((value) {
+                        if (value ?? false) {
+                          refresh();
+                        }
+                      });
                     },
                     leading: CircleAvatar(
                       radius: 18,
