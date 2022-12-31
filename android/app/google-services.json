@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "186484070630",
+    "project_id": "laundry-management-syste-417b7",
+    "storage_bucket": "laundry-management-syste-417b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:186484070630:android:864f09d3b58c6c05170327",
+        "android_client_info": {
+          "package_name": "com.example.laundry_management_system"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "186484070630-sijvmn7la6p5m6u3b3ngiks4g4uthv30.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCD6cDf4dT_BiZY2yLyWlUFNTRE-H70-bs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "186484070630-sijvmn7la6p5m6u3b3ngiks4g4uthv30.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
